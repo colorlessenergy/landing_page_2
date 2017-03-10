@@ -131,8 +131,12 @@ footer p {
 
 .main-info {
   align-items: center;
+  align-content: flex-end;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
 .main-info div h2 {
